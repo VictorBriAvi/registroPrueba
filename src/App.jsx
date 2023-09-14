@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import AgregarProducto from "./components/productos/AgregarProducto";
 import Inicio from "./components/Inicio";
 import EditarProducto from "./components/productos/EditarProducto";
 import Productos from "./components/productos/Productos";
-import Servicios from "./components/servicios/servicios";
+import Servicios from "./components/servicios/Servicios";
 import Colaboradores from "./components/servicios/Colaboradores";
 import AgregarColaborador from "./components/servicios/AgregarColaborador";
 import EditarColaborador from "./components/servicios/EditarColaborador";

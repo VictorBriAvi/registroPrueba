@@ -1,4 +1,4 @@
-import { AiFillDelete, AiFillEdit, AiFillFileAdd } from "react-icons/ai";
+import { AiFillFileAdd } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 import { AiOutlineRollback } from "react-icons/ai";
@@ -7,7 +7,7 @@ import "../../style/Inicio.css";
 import "../../style/botones.css";
 import { useThemeContext } from "../../context/ThemeContext";
 import { useState } from "react";
-import { useEffect } from "react";
+
 import DataTable from "../components/dataTable";
 import { Button, Container, Form } from "react-bootstrap";
 
